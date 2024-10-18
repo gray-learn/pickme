@@ -1,47 +1,124 @@
-Project Title
-Introduction
-This project is a pickme, covering the integration of Redux, Google Autocomplete, navigation, and API implementation in a React Native Expo environment. The app showcases how to build various components step-by-step.
+## Introduction
 
-Table of Contents
-Build Showcase - A demonstration of the final build.
-Build Explanation - In-depth explanation of the app's structure and functionality.
-Setting up Expo - Guidance on setting up the Expo environment to start building the app.
-Initialising the Build - Instructions on initializing the React Native project.
-Setting up Redux - Implementing and configuring Redux for state management.
-Building Components:
-HomeScreen Component
-NavOptions Component
-MapScreen and Map Components
-RideOptionsCard and NavigateCard Components (divided into two parts)
-Implementing Navigation - Setting up React Native navigation for screen transitions.
-Google Autocomplete - Integrating Google Autocomplete for address selection.
-Directions API - Implementing the Directions API for route and travel time calculations.
-NavFavourites Component - Adding a component for favorite navigation options.
-Keyboard Avoiding View - Handling keyboard input properly using KeyboardAvoidingView.
-Travel Time & Price Calculation - Implementing functions to calculate travel time and price.
-Menu Button - Adding a menu button for additional functionality.
-Bug Fixing - A section focusing on resolving issues in the build.
-Final Build Demo - A showcase of the final working app.
-Outro - Summary and final thoughts on the project.
-Prerequisites
-Node.js
-Expo CLI
-Redux
-React Native Navigation
-Google Autocomplete API
-Installation
-Clone the repository.
-Install dependencies using npm install.
-Set up the Google API keys and any other necessary configurations.
-Run the project using expo start.
-Features
-React Native with Expo for cross-platform development.
-Redux for state management.
-Google Autocomplete for enhanced user experience.
-Directions API for navigation and route calculations.
-Dynamic travel time and price calculations based on real-time data.
-Bug fixing strategies and performance improvements.
-Usage
-Start the app and navigate through the screens to experience the various features implemented, such as selecting routes, viewing map directions, and calculating travel time and price.
-Conclusion
-A well-structured project that integrates multiple technologies and APIs, demonstrating how to create a fully functional travel-based app in React Native.
+"PickMe" is a React Native Expo project that integrates Redux, Google Autocomplete, navigation, and API implementation. This project showcases the step-by-step development of application components with a focus on building functional and interactive features.
+
+## Prerequisites
+
+Before running this project, ensure that you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Redux](https://redux.js.org/)
+- [React Native Navigation](https://reactnavigation.org/)
+- [Google Autocomplete API](https://developers.google.com/maps/documentation/places/web-service/autocomplete)
+
+## Installation
+
+To set up the project on your local machine, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pickme.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd pickme
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up your Google API keys and any other necessary configurations in the `.env` or config file.
+5. Run the project using Expo:
+   ```bash
+   expo start
+   ```
+
+## Features
+
+- **Cross-platform Development**: Compatible with iOS and Android using React Native and Expo.
+- **State Management**: Efficient state handling with Redux.
+- **Enhanced User Experience**: Integration with Google Autocomplete for address selection.
+- **Navigation Features**: Utilize the Directions API for route calculations and navigation.
+- **Real-time Data**: Dynamic travel time and price calculations based on selected routes.
+- **Bug Fixing**: Includes a dedicated section for resolving common issues and improving performance.
+
+## Usage
+
+After launching the app, you can explore the following features:
+
+- Select routes and view navigation directions on the map.
+- Utilize Google Autocomplete to search for addresses.
+- Real-time travel time and price calculations based on your chosen route.
+- Add favorite routes using the `NavFavourites` component.
+
+## Build Showcase
+
+[Provide screenshots or a link to a demo video showcasing the final app build]
+
+## Build Explanation
+
+This section provides a detailed breakdown of the app’s structure, including component hierarchy, state management, and how various APIs are implemented.
+
+## Setting up Expo
+
+A guide for installing Expo CLI and configuring the environment to run the project locally.
+
+## Initializing the Build
+
+Step-by-step instructions for starting a new React Native project and setting up initial configurations.
+
+## Setting up Redux
+
+Detailed steps to integrate and configure Redux for managing app state efficiently.
+
+## Building Components
+
+- **HomeScreen Component**: The main screen of the app.
+- **NavOptions Component**: Displays navigation options.
+- **MapScreen and Map Components**: Handles map view and interactions.
+- **RideOptionsCard and NavigateCard Components**: Two-part components for ride and navigation options.
+
+## Implementing Navigation
+
+Instructions for setting up React Native navigation to transition between different screens.
+
+## Google Autocomplete
+
+Integrating Google’s Autocomplete feature to allow users to search and select addresses easily.
+
+## Directions API
+
+Explanation on using the Directions API to calculate routes and travel times.
+
+## NavFavourites Component
+
+Adding a feature to allow users to save favorite navigation options for quick access.
+
+## Keyboard Avoiding View
+
+Guidance on handling keyboard input using the `KeyboardAvoidingView` component.
+
+## Travel Time & Price Calculation
+
+Implementation details for calculating travel time and fare estimates based on user inputs and routes.
+
+## Menu Button
+
+Adding a menu button to access additional features within the app.
+
+## Bug Fixing
+
+Troubleshooting common issues, focusing on performance improvements and debugging strategies.
+
+## Final Build Demo
+
+A showcase of the final build of the app, demonstrating key features.
+
+## Outro
+
+A brief summary of the project, along with final thoughts on the overall development process.
+
+## License
+
+[MIT](LICENSE)
