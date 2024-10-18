@@ -6,7 +6,6 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       {/* <Text style={tw`text-red-500 p-10`}>Pickme!</Text> */}
-
       <View style={tw`p-5`}>
         <Image
           style={{
@@ -17,7 +16,7 @@ const HomeScreen = () => {
           source={require("../assets/pickme.png")} // Corrected path for local image
         />
       </View>
-      {/* <NavOptions /> */}
+      <NavOptions />
     </SafeAreaView>
   );
 };
