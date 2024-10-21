@@ -10,7 +10,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 export default function App() {
   const Stack = createStackNavigator();
-
   return (
     // global state (data layer)
     <Provider store={store}>
